@@ -20,7 +20,7 @@ namespace DACN
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if(txtName.Text=="admin" && txtPass.Text=="123")
+            if(txtName.Text=="admin" && txtPass.Text=="1234")
             { 
                 this.Hide();
                 Main_Form main_Form = new Main_Form();
